@@ -2,10 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import WFG from "@/public/WFG-home-project.png";
-import BO from "@/public/BO.png";
-import TOS from "@/public/TOS.png";
-import TH from "@/public/TH.png";
+import WFG from "../public/WFG.png";
+import BO from "../public/BO.png";
+import TOS from "../public/TOS.png";
+import TH from "../public/TH.png";
 
 
 export const links = [
