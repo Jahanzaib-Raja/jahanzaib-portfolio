@@ -2,10 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import WFG from "../public/WFG.png";
-import BO from "../public/BO.png";
-import TOS from "../public/TOS.png";
-import TH from "../public/TH.png";
+import AF from "../assets/images/af.png";
+import BO from "../assets/images/bo.png";
+import TOS from "../assets/images/tos.png";
+import TH from "../assets/images/th.png";
 
 
 export const links = [
@@ -69,7 +69,7 @@ export const projectsData = [
     description:
       "In my role as a Full-Stack Engineer, I developed Alfalah Furniture, an e-commerce platform where users can purchase a wide range of furniture for home and office. I implemented complete online purchase functionality, including user account management and order placement, ensuring a seamless shopping experience.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Shadcn", "Framer Motion", "PostgreSQL", "Prisma"],
-    imageUrl: WFG,
+    imageUrl: AF,
   },
   {
     title: "TicketsOnSale",
