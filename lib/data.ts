@@ -65,9 +65,9 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "WoodenFurnitureGallery",
+    title: "Alfalah Furniture",
     description:
-      "In my role as a Full-Stack Engineer, I developed WoodenFurnitureGallery, an e-commerce platform where users can purchase a wide range of furniture for home and office. I implemented complete online purchase functionality, including user account management and order placement, ensuring a seamless shopping experience.",
+      "In my role as a Full-Stack Engineer, I developed Alfalah Furniture, an e-commerce platform where users can purchase a wide range of furniture for home and office. I implemented complete online purchase functionality, including user account management and order placement, ensuring a seamless shopping experience.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Shadcn", "Framer Motion", "PostgreSQL", "Prisma"],
     imageUrl: WFG,
   },
