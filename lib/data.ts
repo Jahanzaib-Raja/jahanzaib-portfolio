@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import CB from "../assets/images/carrerBot.png";
+import CB from "../assets/images/CB.png"
 import AF from "../assets/images/af.png";
 import BO from "../assets/images/bo.png";
 import TOS from "../assets/images/tos.png";
