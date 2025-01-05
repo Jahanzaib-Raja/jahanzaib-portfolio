@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import CB from "../assets/images/carrerBot.png";
 import AF from "../assets/images/af.png";
 import BO from "../assets/images/bo.png";
 import TOS from "../assets/images/tos.png";
@@ -48,7 +49,7 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "Islamabad, Pakistan",
     description:
-      "Currently working as a Front-End Developer, where I specialize in creating dynamic and responsive user interfaces. I have continuously upskilled to transition into a full-stack role, broadening my expertise in both front-end technologies and back-end development.",
+      "Specializing in AI-related solutions, I focus on creating dynamic and responsive user interfaces. I have continuously upskilled to transition into a full-stack role, broadening my expertise in both front-end technologies and AI-powered solutions with AI integrations.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - Present",
   },
@@ -56,7 +57,7 @@ export const experiencesData = [
     title: "Full-Stack Developer / AI Engineer",
     location: "Islamabad, Pakistan",
     description:
-      "As a Full-Stack Developer and AI Engineer, I am currently freelancing and working on hobby projects focused on developing robust web applications. My tech stack includes React, Next.js, TypeScript, Tailwind CSS, Prisma, MongoDB, and AI technologies. I am passionate about integrating AI to enhance user experiences and deliver innovative solutions.",
+      "As a Full-Stack Developer and AI Engineer, I am currently freelancing and working on projects focused on developing robust AI-powered web applications. My tech stack includes Python, ML, React, Next.js, TypeScript, Tailwind CSS, Prisma, MongoDB, and AI technologies. I am passionate about integrating AI to enhance user experiences and deliver innovative solutions.",
     icon: React.createElement(FaReact),
     date: "2024 - Present",
   },
@@ -64,6 +65,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Career Counselling Chatbot",
+    description:
+      "Career Counselling Chatbot is an AI-driven solution built with OpenAI and Python, designed to deliver personalized career guidance in a conversational and engaging manner.It leverages advanced language models to provide real- time, structured advice, formatted in HTML for seamless integration into web applications.This innovative chatbot makes career planning approachable, ensuring users feel supported and confident in their professional journey.",
+    tags: ["Python", "OpenAI", "FastAPI", "React.js", "TypeScript", "Next.js", "Tailwind CSS", "PostgreSQL", "Prisma"],
+    imageUrl: CB,
+  },
   {
     title: "Alfalah Furniture",
     description:
@@ -96,12 +104,16 @@ export const projectsData = [
 
 
 export const skillsData = [
+  "Python",
+  "Artificial Intelligence",
+  "Machine Learning",
+  "OpenAI Integrations",
+  "React",
+  "Next.js",
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
-  "React",
-  "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
@@ -111,9 +123,6 @@ export const skillsData = [
   "GraphQL",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Artificial Intelligence",
-  "Machine Learning",
   "Deep Learning",
   "Django",
   "FastAPI",
